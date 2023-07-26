@@ -1,0 +1,45 @@
+/* Task 1: Set the title to "Joey Thinkful" and adjust font size */
+h1 {
+    font-size: 52px; /* For mobile */
+  }
+  
+  /* For desktop, we use a media query to adjust the font size */
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  /* Add the Montserrat font import to the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Set the font for navigation links to Montserrat */
+#menu li a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Task 3: Set the background color to a dark blue */
+body {
+    background-color: #0B1C51;
+  }
+
+  /* Task 4: Adjust the presentation for responsive design */
+header {
+    text-align: center; /* To center the title and navigation links */
+    padding: 20px; /* Add some padding to the header */
+  
+    /* For desktop, we'll adjust the spacing */
+    @media (min-width: 768px) {
+      padding: 40px; /* Increase the padding for desktop */
+    }
+  }
+  
+  /* Adjust the spacing for the navigation links */
+  #menu li {
+    margin-bottom: 10px; /* Add some vertical spacing between the links */
+    
+    /* For desktop, we'll adjust the spacing */
+    @media (min-width: 768px) {
+      margin-bottom: 20px; /* Increase the vertical spacing for desktop */
+    }
+  }
